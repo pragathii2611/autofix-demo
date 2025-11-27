@@ -20,9 +20,3 @@ module.exports = {
   multiply,
   divide
 };
-
-const math = require('./index.js');
-console.log(math.add(2, 2));
-console.log(math.subtract(5, 3));
-console.log(math.multiply(4, 5));
-console.log(math.divide(10, 2));
